@@ -2690,6 +2690,14 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  .professional {
+    height: 100%;
+    width: auto;
+    border-radius: 5px;
+  }
+}
+
 .professional {
   height: 100%;
   width: auto;
